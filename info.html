@@ -9,12 +9,199 @@
   <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
 
   <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #EAF1F8;
+      color: #243B53;
+      margin: 20px;
+  }
 
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+  }
+
+    header {
+      background-color: #123B5D;
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+      border: 1px solid #123B5D;
+  }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 32px;
+  }
+
+    .subtitle {
+      color: #DCEEFF;
+      margin-bottom: 15px;
+  }
+
+    .section {
+      background-color: white;
+      margin-top: 25px;
+      padding: 20px;
+      border: 1px solid #B8CDE0;
+  }
+
+    h2 {
+      color: #123B5D;
+      margin-top: 5px;
+      margin-bottom: 20px;
+  }
+
+    .interests {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+  }
+
+    .interest-card {
+      background-color: #EAF1F8;
+      padding: 18px;
+      border: 1px solid #C4D7E8;
+      text-align: center;
+  }
+
+    .interest-card h3 {
+      color: #245A83;
+      margin-top: 5px;
+  }
+
+    .interest-card p {
+      font-size: 14px;
+      line-height: 1.5;
+  }
+
+    .value {
+      background-color: #DCE9F5;
+      padding: 15px;
+      margin-bottom: 15px;
+  }
+
+    .value h3 {
+      color: #123B5D;
+      margin-top: 5px;
+  }
+
+    .value p {
+      line-height: 1.6;
+      margin-bottom: 5px;
+  }
+
+    .quote {
+      background-color: #123B5D;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 25px;
+  }
+
+    .quote p {
+      font-style: italic;
+      font-size: 18px;
+      line-height: 1.6;
+  }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #718BA3;
+      margin-top: 25px;
+  }
   </style>
 
 </head>
 <body>
+  <div class="container">
+    <header>
+      <h1>Meet the Creator</h1>
+      <h2>Christer Ian Salangsang</h2>
+
+      <p class="subtitle">
+        Grade 10 – Sapphire
+      </p>
+    </header>
+
+    <div class="section">
+      <h2>Hobbies / Interests</h2>
+
+        <div class="interests">
+
+          <div class="interest">
+            <h3>Music</h3>
+              <p>
+                A soundtrack for different moods,
+                moments, and memories.
+              </p>
+          </div>
+
+          <div class="interest">
+            <h3>Board Games</h3>
+              <p>
+                Strategy, creativity, and the fun
+                of friendly competition.
+              </p>
+          </div>
+
+          <div class="interest">
+            <h3>Travelling</h3>
+              <p>
+                Exploring unfamiliar places and
+                experiencing different perspectives.
+              </p>
+          </div>
+
+          <div class="interest">
+            <h3>Movies</h3>
+              <p>
+                Stories, characters, and worlds
+                worth getting lost in.
+              </p>
+          </div>
+        </div>
+    </div>
+
+    <div class="section">
+      <h2>What Makes Life Worth Living</h2>
+
+        <div class="value">
+          <h3>01. Human Connection</h3>
+            <p>
+              The relationships we build, the people
+              we meet, and the moments we share
+              with one another.
+            </p>
+        </div>
+
+        <div class="value">
+          <h3>02. Discovery</h3>
+            <p>
+              The endless opportunities to learn,
+              explore, experience, and find meaning
+              in the unfamiliar.
+            </p>
+        </div>
+    </div>
+
+    <div class="quote">
+      <p>
+        "We spend our lives searching for the ocean,
+        forgetting that we've been swimming in it
+        all along."
+      </p>
+    </div>
+
+    <footer>
+        <p>Meet the Creator | Grade 10 - Sapphire</p>
+      </footer>
+  </div>
 
   <script type="py" src="info.py"></script>
+
 </body>
 </html>
