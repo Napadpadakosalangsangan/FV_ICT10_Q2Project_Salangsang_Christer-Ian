@@ -9,19 +9,37 @@
   <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
 
   <style>
-    
+		.navbar {
+			background-color: #123B5D;
+			padding: 15px;
+			text-align: center;
+			margin-bottom: 25px;
+		}
+
+		.navbar a {
+			color: white;
+			text-decoration: none;
+			padding: 10px 20px;
+			margin: 0 5px;
+			font-weight: bold;
+		}
+
+		.navbar a:hover {
+			background-color: #245A83;
+		}
+		    
     body {
       font-family: Arial, sans-serif;
       background-color: #EAF1F8;
       color: #243B53;
       margin: 20px;
-  }
+    }
 
     .container {
       max-width: 800px;
       margin: 40px auto;
       padding: 20px;
-  }
+    }
 
     header {
       background-color: #123B5D;
@@ -29,69 +47,69 @@
       text-align: center;
       padding: 35px 20px;
       border: 1px solid #123B5D;
-  }
+    }
 
     h1 {
       margin-bottom: 10px;
       font-size: 32px;
-  }
+    }
 
     .subtitle {
       color: #DCEEFF;
       margin-bottom: 15px;
-  }
+    }
 
     .section {
       background-color: white;
       margin-top: 25px;
       padding: 20px;
       border: 1px solid #B8CDE0;
-  }
+    }
 
     h2 {
       color: #123B5D;
       margin-top: 5px;
       margin-bottom: 20px;
-  }
+    }
 
     .interests {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 15px;
-  }
+    }
 
     .interest {
       background-color: #EAF1F8;
       padding: 18px;
       border: 1px solid #C4D7E8;
       text-align: center;
-  }
+    }
 
     .interest h3 {
       color: #245A83;
       margin-top: 5px;
-  }
+    }
 
     .interest p {
       font-size: 14px;
       line-height: 1.5;
-  }
+    }
 
     .value {
       background-color: #DCE9F5;
       padding: 15px;
       margin-bottom: 15px;
-  }
+    }
 
     .value h3 {
       color: #123B5D;
       margin-top: 5px;
-  }
+    }
 
     .value p {
       line-height: 1.6;
       margin-bottom: 5px;
-  }
+    }
 
     .quote {
       background-color: #123B5D;
@@ -99,24 +117,32 @@
       text-align: center;
       padding: 30px 20px;
       margin-top: 25px;
-  }
+    }
 
     .quote p {
       font-style: italic;
       font-size: 18px;
       line-height: 1.6;
-  }
+    }
 
     footer {
       text-align: center;
       font-size: 12px;
       color: #718BA3;
       margin-top: 25px;
-  }
+    }
   </style>
 
 </head>
 <body>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="info.html">About Me</a>
+    <a href="elements.html">Elements</a>
+    <a href="members.html">Members</a>
+  </nav>
+
   <div class="container">
     <header>
       <h1>Meet the Creator</h1>
@@ -131,17 +157,17 @@
 
           <div class="interest">
             <h3>Music</h3>
-            <p>Coming from a family of musicians, it has surrounded, lifted, and inspired me throughout my entire life.</p>
+            <p>Coming from a family of musicians, music has surrounded, lifted, and inspired me throughout my entire life.</p>
           </div>
 
           <div class="interest">
             <h3>Board Games</h3>
-            <p>Other than physical and virtual games, I enjoy bonding with my friends and cousins with casual, strategy board games.</p>
+            <p>Other than physical and virtual games, I enjoy bonding with my friends and cousins with casual strategy board games.</p>
           </div>
 
           <div class="interest">
             <h3>Travelling</h3>
-            <p>Different cultures and new experiences are things I value and will continue to pursue in the future</p>
+            <p>Different cultures and new experiences are things I value and hope to continue pursuing.</p>
           </div>
 
           <div class="interest">
@@ -161,7 +187,7 @@
 
         <div class="value">
           <h3>02. Discovery</h3>
-            <p>The endless opportunities to learn, explore, and experience to find meaning and purpose for our time on earth.</p>
+            <p>The endless opportunities to learn, explore, and experience, and find meaning and purpose for our time on earth.</p>
         </div>
     </div>
 
